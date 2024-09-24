@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/style/style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="../index.html"
+            ><img src="../public/images/logo.png" class="logo" alt="logo image"
+          /></a>
+          <ul>
+            <li><a href="../index.html">მთავარი</a></li>
+            <li><a href="./about.html">ჩვენს შესახებ</a></li>
+            <li><a href="#" class="active">კონტაქტი</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container contact">
+        <h1>ონლაინ შეკვეთის ფორმა</h1>
+        <p>
+          შეგიძლიათ მოგვწეროთ საკონტაქტო ინფორმაცია და ის პროდუქტი რისი ყიდვაც
+          გსურთ, შეძენაში დაგეხმარებით.
+        </p>
+        <form action="?" method="get">
+          <div class="human-info">
+            <div>
+              <label for="fullName">*Name</label>
+              <input type="text" placeholder="Chriss Wells" name="fullName" />
+            </div>
+            <div>
+              <label for="adress">*Adress</label>
+              <input type="text" placeholder="Chavchavadze 4" name="adress" />
+            </div>
+            <div>
+              <label for="town">*Town</label>
+              <input type="text" placeholder="Tbilisi" name="town" />
+            </div>
+            <div>
+              <label for="PostCode">*Postcode</label>
+              <input type="number" placeholder="2204" />
+            </div>
+            <div>
+              <label for="tel">*Tel</label>
+              <input type="tel" name="tel" placeholder="551147852" />
+            </div>
+            <div>
+              <label for="email">*Email</label>
+              <input type="email" placeholder="chrisswels@gmail.com" />
+            </div>
+          </div>
+          <p class="sign">*required fields</p>
+          <section class="s-product">
+            <div class="type product_form">
+              <h2>Type</h2>
+              <div>
+                <input
+                  type="radio"
+                  name="type"
+                  id="notebook"
+                  value="product_notebook"
+                />
+                <label for="notebook">notebook</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="type"
+                  id="tablet"
+                  value="product_tablet"
+                />
+                <label for="tablet">Tablet</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="type"
+                  id="radio"
+                  value="product_radio"
+                />
+                <label for="radio">Radio</label>
+              </div>
+            </div>
+            <div class="company_form">
+              <h2>Company</h2>
+              <div>
+                <input
+                  type="radio"
+                  name="company"
+                  id="canon"
+                  value="company_canon"
+                />
+                <label for="canon">Canon</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="company"
+                  id="Xiaomi"
+                  value="company_xiaomi"
+                />
+                <label for="tablet">Xiaomi</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="company"
+                  id="Hwavei"
+                  value="company_hwavei"
+                />
+                <label for="radio">Hwavei</label>
+              </div>
+            </div>
+            <div class="color_form">
+              <h2>color</h2>
+              <div>
+                <input
+                  type="checkbox"
+                  name="color"
+                  id="green"
+                  value="color_green"
+                />
+                <label for="green">Green</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="color"
+                  id="grey"
+                  value="color_grey"
+                />
+                <label for="grey">Grey</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="color"
+                  id="blue"
+                  value="color_blue"
+                />
+                <label for="blue">Blue</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="color"
+                  id="white"
+                  value="color_white"
+                />
+                <label for="white">White</label>
+              </div>
+            </div>
+          </section>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

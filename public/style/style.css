@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.active {
+  color: red;
+  font-weight: 600;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 20px;
+}
+/* navigation style */
+.logo {
+  max-width: 300px;
+  width: 100%;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  list-style: none;
+}
+
+a {
+  color: black;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+/* about us style */
+.title {
+  margin-bottom: 20px;
+}
+.box {
+  margin-top: 15px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.637);
+  border-radius: 5px;
+  padding: 15px;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+th,
+td,
+table {
+  border: 1px solid black;
+  padding: 10px;
+}
+.team,
+.team_details {
+  margin-bottom: 15px;
+}
+
+/* form style */
+.human-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 280px;
+  column-gap: 100px;
+}
+.human-info > div {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.sign {
+  text-align: center;
+}
+
+.s-product {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 300px;
+}
+.s-product h2 {
+  margin-bottom: 15px;
+}
+.s-product div {
+  margin-bottom: 5px;
+}
+.s-product label {
+  margin-left: 7px;
+}
+.contact h1 {
+  margin-bottom: 15px;
+}
+.contact p {
+  margin-bottom: 15px;
+}
