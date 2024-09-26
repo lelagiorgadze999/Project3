@@ -1,3 +1,4 @@
+/* reset default style */
 * {
   padding: 0;
   margin: 0;
@@ -91,7 +92,9 @@ table {
 .sign {
   text-align: center;
 }
-
+input {
+  outline: none;
+}
 .s-product {
   margin-top: 50px;
   margin-bottom: 100px;
@@ -112,4 +115,12 @@ table {
 }
 .contact p {
   margin-bottom: 15px;
+}
+button {
+  background-color: red;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-left: 400px;
 }
